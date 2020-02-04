@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Document</title>
+  <style>
+    .navbar {
+      margin-bottom: 0px;
+    }
+
+    .jumbotron {
+      padding-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <!-- LOGO -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- 导航列表 -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">公司简介</a></li>
+            <li><a href="#">解决方案</a></li>
+            <li><a href="#">成功案例</a></li>
+          </ul>
+          <!-- 搜索框 -->
+          <form class="navbar-form navbar-right">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="搜索">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron" style="background-color: #1bb2e8;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1">
+            <h2 class="text-success">公司简介</h2>
+            <p style="font-size: 16px; color: white;">
+              基于遍布全球的服务网络和深厚的服务能力，CTI每年可出具约200万份具有公信力的检测认证报告，服务客户9万家，其中世界五百强客户逾百家。CTI集团及各分子公司在各领域可为客户提供检测、检验、认证、审核、培训、鉴定、咨询等服务：
+              消费品：有害物质检测，可靠性与失效分析，金属材料检测，非金属材料分析，纺织品、鞋类、箱包检测，玩具、婴童产品、学习用品、家具、餐厨具等食品接触材料及杂货检测；
+              工程：建材与工程检测、检验及认证，特种设备无损检测，风电机组检测及监造；
+              环境：环境检测与咨询，环境污染治理设施运行，污染源在线监控设施委托运行等；
+            </p>
+          </div>
+          <div class="col-md-5 hidden-sm">
+            <img src="images/bsz.jpg" style="width: 70%;" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
